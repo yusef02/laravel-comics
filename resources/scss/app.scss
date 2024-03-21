@@ -60,3 +60,46 @@ ul {
         }
     }
 }
+
+.footer {
+    color: white;
+
+    .wrapper {
+        margin-right: 80px;
+    }
+
+    .wrapper-image {
+        height: 250px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    li {
+        color: #a5a5a5;
+        a {
+            color: #a5a5a5;
+        }
+    }
+
+    &__upper {
+        background-image: url("/resources/images/footer-bg.jpg");
+        padding: 30px;
+    }
+
+    &__bottom {
+        background-color: #303030;
+        padding: 30px;
+
+        button {
+            color: white;
+        }
+
+        li {
+            padding: 0 5px;
+        }
+    }
+}
