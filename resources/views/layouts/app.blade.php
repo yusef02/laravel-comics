@@ -13,15 +13,11 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    @include('partials.header')
+  @include('partials._header')
 
-    <main>
-      @yield('main-content')
-    </main>
+  @yield('main-content')
 
-    @include('partials.footer')
-  </div>
+  @include('partials._footer')
 
   @yield('js')
 </body>
