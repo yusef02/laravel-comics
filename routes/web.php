@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
   return view('partials.about');
 })->name('about');
+Route::get('/contacts', function () {
+  return view('partials.contacts');
+})->name('contacts');
 Route::get('/comics', function () {
   return view('partials.comics');
 })->name('comics');

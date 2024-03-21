@@ -7,43 +7,43 @@
 
       <ul class="d-flex">
         <li>
-          <a class='link active' href="home">home</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'home']) href="{{ route('home') }}">home</a>
         </li>
         <li>
-          <a class='link' href="about">abut</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'about']) href="{{ route('about') }}">about</a>
         </li>
         <li>
-          <a class='link' href="contacts">contacts</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'contacts']) href="{{ route('contacts') }}">contacts</a>
         </li>
         <li>
-          <a class='link' href="comics">comics</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'comics']) href="{{ route('comics') }}">comics</a>
         </li>
         <li>
-          <a class='link' href="movies">movies</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'movies']) href="{{ route('movies') }}">movies</a>
         </li>
         <li>
-          <a class='link' href="tv">tv</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'tv']) href="{{ route('tv') }}">tv</a>
         </li>
         <li>
-          <a class='link' href="games">games</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'games']) href="{{ route('games') }}">games</a>
         </li>
         <li>
-          <a class='link' href="collectibles">collectibles</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'collectibles']) href="{{ route('collectibles') }}">collectibles</a>
         </li>
         <li>
-          <a class='link' href="videos">videos</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'videos']) href="{{ route('videos') }}">videos</a>
         </li>
         <li>
-          <a class='link' href="fans">fans</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'fans']) href="{{ route('fans') }}">fans</a>
         </li>
         <li>
-          <a class='link' href="news">news</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'news']) href="{{ route('news') }}">news</a>
         </li>
         <li>
-          <a class='link' href="shop">shop</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'shop']) href="{{ route('shop') }}">shop</a>
         </li>
         <li>
-          <a class='link' href="characters">characters</a>
+          <a @class (['link','active'=> Route::currentRouteName() == 'characters']) href="{{ route('characters') }}">characters</a>
         </li>
       </ul>
     </nav>
