@@ -28,17 +28,35 @@ ul {
 
             .link.active {
                 color: white;
-                background-color: #0c7cec;
+                background-color: #0d7eef;
             }
         }
     }
 }
-.hero {
+#hero {
     height: 300px;
     overflow: hidden;
     object-fit: cover;
     object-position: center;
     img {
         width: 100%;
+    }
+}
+#sectionMerch {
+    padding: 2rem 0;
+    margin-top: 2rem;
+    background-color: #0d7eef;
+    color: white;
+
+    a {
+        color: white;
+        text-decoration: none;
+        img {
+            height: 55px;
+        }
+
+        span {
+            padding-left: 1rem;
+        }
     }
 }

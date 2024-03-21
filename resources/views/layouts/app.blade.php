@@ -18,6 +18,7 @@
 
   @yield('main-content')
 
+  @include('partials._sectionMerch')
   @include('partials._footer')
 
   @yield('js')
