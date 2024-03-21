@@ -42,6 +42,62 @@ ul {
         width: 100%;
     }
 }
+
+#sectionComics {
+    padding-top: 2rem;
+    min-height: 300px;
+    background-color: #1c1c1c;
+    position: relative;
+
+    button#currents {
+        position: relative;
+        top: -50px;
+        left: -20px;
+    }
+
+    button#more {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+    }
+
+    .card {
+        --bs-card-bg: none;
+        border: none;
+
+        .wrapper-image {
+            height: 250px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+
+        p {
+            padding-top: 1rem;
+            color: white;
+        }
+    }
+}
+
+#comicDesc {
+    .wrapper-comic {
+        max-width: 900px;
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 10px 30px;
+        border-radius: 20px;
+        background-color: #a5a5a5;
+    }
+
+    img {
+        margin: 2rem 0;
+        height: 500px;
+    }
+}
+
 #sectionMerch {
     padding: 2rem 0;
     margin-top: 2rem;

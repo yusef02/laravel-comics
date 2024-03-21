@@ -11,14 +11,23 @@ class PageController extends Controller
         return view('partials.home');
     }
 
-    public function comics()
-    {
-        return view('partials.comics');
-    }
 
     public function about()
     {
         return view('partials.about');
+    }
+
+    public function comics()
+    {
+        $comics = config('comics');
+        return view('partials.comics', compact('comics'));
+    }
+
+    public function comicDesc($index)
+    {
+        $comics = config('comics');
+        $comic = $comics[$index];
+        return view('pages.comic-detail', compact('comic'));
     }
 
     public function contacts()

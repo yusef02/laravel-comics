@@ -19,6 +19,8 @@ Route::get('/',  [PageController::class, 'home'])->name('home');
 Route::get('/about',  [PageController::class, 'about'])->name('about');
 Route::get('/contacts',  [PageController::class, 'contacts'])->name('contacts');
 Route::get('/comics',  [PageController::class, 'comics'])->name('comics');
+Route::get('/comicDesc/{index}', [PageController::class, 'comicDesc'])->name('comicDesc');
+
 Route::get('/movies',  [PageController::class, 'movies'])->name('movies');
 Route::get('/tv',  [PageController::class, 'tv'])->name('tv');
 Route::get('/games',  [PageController::class, 'games'])->name('games');
