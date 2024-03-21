@@ -14,6 +14,7 @@
 
 <body>
   @include('partials._header')
+  @include('partials._hero')
 
   @yield('main-content')
 

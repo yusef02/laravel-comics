@@ -34,5 +34,11 @@ ul {
     }
 }
 .hero {
-    height: 25rem;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    img {
+        width: 100%;
+    }
 }
